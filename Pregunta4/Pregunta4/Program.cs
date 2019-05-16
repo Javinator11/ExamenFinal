@@ -8,7 +8,8 @@ namespace Pregunta4
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void selectionSort<T>(T[] array)
+                 where T : IComparable<T>
         {
             for (int i = 0; i < array.Length; i++)
             {
@@ -29,4 +30,3 @@ namespace Pregunta4
             }
         }
     }
-}
