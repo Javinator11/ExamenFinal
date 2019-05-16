@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{959237BD-6202-48B4-A23B-B3324050A3DB}</ProjectGuid>
+    <ProjectGuid>{2AF27E82-BF02-4C55-ADDE-3A52A6B4CD10}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Pregunta3</RootNamespace>
-    <AssemblyName>Pregunta3</AssemblyName>
+    <RootNamespace>Pregunta4</RootNamespace>
+    <AssemblyName>Pregunta4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\ExceptionNum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
